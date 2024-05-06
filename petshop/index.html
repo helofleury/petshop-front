@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Incluindo o CSS do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--Incluindo o Css do FlatIcon-->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'>
+    <!-- Incluindo o seu arquivo CSS personalizado -->
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <!-- Ícone da guia -->
+    <link rel="shortcut icon" href="./assets/img/Icon.png">
+    <title>PetMania</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+            <img src="./assets/img/Logo.png" alt="Logo" id="logo">
+        <!-- Barra de Navegação -->
+        <nav class="navbar">
+            <button id="botaoMob">
+                <span id="hamburg"></span>
+            </button>
+
+            <ul id="navbar-ul">
+                <li class="dropdown">
+                    <a href="#div-banner">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#catalogo-geral">Produtos</a>
+                    <!-- Submenu de Vinhos -->
+                </li>
+                <li class="dropdown">
+                    <a href="#animais">Pets</a>
+                    <!-- Submenu-->
+                </li>
+                <li class="dropdown"><a href="#h1sobre">Sobre</a></li>
+                <!-- Submenu -->
+                <li class="dropdown"><a href="#fundodiv">Contato</a></li>
+                <!-- Submenu de Contatos -->
+            </ul>
+        </nav>
+
+       
+        
+        
+        <!-- Ícones -->
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        </div>
+        <!-- Formulário de busca -->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        
+    </header>
+
+
+    <!-- Conteúdo principal de Apresentação da Página -->
+    <div id="div-banner">
+    <section id="banner">
+      <img id="imgBanner">
+    </section>
+    </div>
+
+
+    <div id="div-sobre">
+        <h1 id="h1sobre">Sobre Nós</h1>
+    
+        <div id="homer">
+            <p>Na PetMania, nosso compromisso é com o bem-estar e felicidade dos seus animais de estimação. Desde a sua fundação, buscamos oferecer serviços e produtos de alta qualidade para atender às necessidades de todos os tipos de pets, desde os mais peludos até os mais escamosos.</p>
+        </div>
+    
+        <div id="sobre-imagens">
+            <div id="esp-sobre1">
+                <img src="assets/img/sobreimg1.png" alt="">
+                <h2>Atendimento 24 Horas</h2>
+                <h3>Estamos sempre prontos para receber o seu pet 24 horas por dia, 7 dias por semana!</h3>
+            </div>
+    
+            <div id="esp-sobre2">
+                <img src="assets/img/sobreimg2.png" alt="">
+                <h2>Emergências</h2>
+                <h3>Contamos com uma infraestrutura completa para receber o seu pet, quando imprevistos acontecerem. Desde consultas à cirurgias de emergência.</h3>
+            </div>
+    
+            <div id="esp-sobre3">
+                <img src="assets/img/sobreimg3.png" alt="">
+                <h2>Especialidades</h2>
+                <h3>Contamos com profissionais altamente qualificados em diversas áreas da Medicina Veterinária, tais como: cardiologia, anestesiologia e outros.</h3>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="div-categorias">
+    <div class="categoria-texto">
+        <p id="categoria">Categorias</p>
+    </div>
+
+    <section id="animais">
+        <div class="imagens-animais">
+            <a href="#redirec-caes">
+            <img class="imagem-circular" src="./assets/img/Imagens_Adocao/Cachorro.jpg">
+            <div class="overlay">
+                <p class="palavra">Cães</p>
+              </div>
+            </a>
+        </div>
+        <div class="imagens-animais">
+            <a href="#redirec-gatos">
+            <img class="imagem-circular" src="./assets/img/Imagens_Adocao/Gato.jpg">
+            <div class="overlay">
+                <p class="palavra">Gatos</p>
+              </div>
+            </a>
+        </div> 
+        <div class="imagens-animais">
+           
+            <img class="imagem-circular" src="./assets/img/peixe-de-estimacao.jpg">
+            <div class="overlay">
+                <p class="palavra">Peixes</p>
+              </div>
+        </div> 
+        <div class="imagens-animais">
+            <img class="imagem-circular" src="./assets/img/papagaio.webp">
+            <div class="overlay">
+                <p class="palavra">Aves</p>
+              </div>
+        </div> 
+        <div class="imagens-animais">
+            <a href="#redirec-roedores">
+            <img class="imagem-circular" src="./assets/img/Imagens_Adocao/Hamster.jpg">
+            <div class="overlay">
+                <p class="palavra">Roedores</p>
+              </div>
+            </a>
+        </div> 
+        <div class="imagens-animais">
+            <img class="imagem-circular" src="./assets/img/Imagens_Adocao/Tartaruga.jpg">
+            <div class="overlay">
+                <p class="palavra">Outros</p>
+              </div>
+        </div> 
+    </section>
+
+    <div id="div-produtos">
+    <p id="titulo-produtos">Produtos</p>
+    <section id="catalogo-geral">
+        
+        <div id="redirec-caes">
+        <div class="catalogo">
+            <img src="assets/img/Produtos/Racao_Senior.png" alt=""/>
+            <p class="nomeproduto">Ração Seca Max</p>
+            <p class="descricaoproduto">Para cães sênior</p>
+            <button><a href="compra.html" class="cor-btn">R$ 177,56</a></button>
+        </div>
+    
+        <div class="catalogo">
+            <img src="assets/img/Produtos/Racao_filhote.png" alt=""/>
+            <p class="nomeproduto">Nutrive Select</p>
+            <p class="descricaoproduto">Para cães filhotes</p>
+            <button><a href="compra.html" class="cor-btn">R$ 169,88</a></button>
+        </div>
+    
+        <div class="catalogo">
+            <img src="assets/img/Produtos/racao1-cao.png" alt=""/>
+            <p class="nomeproduto">Ração Golden</p>
+            <p class="descricaoproduto">Para cães adultos</p>
+            <button><a href="compra.html" class="cor-btn">R$ 180,99</a></button>
+        </div>
+   
+    
+        <div class="catalogo">
+            <img src="assets/img/Produtos/Racao_Raca.png" alt=""/>
+            <p class="nomeproduto">Ração Seca Especial</p>
+            <p class="descricaoproduto">Para cães adultos</p>
+            <button><a href="compra.html" class="cor-btn">R$ 110,00</a></button>
+        </div>
+    </div>
+
+<hr>
+    
+
+        <div id="redirec-gatos">
+        <div class="catalogo">
+            <img src="assets/img/Produtos/racao1-gato.png" alt=""/>
+            <p class="nomeproduto">Ração Whiskas</p>
+            <p class="descricaoproduto">Sabor Salmão</p>
+            <button><a href="compra.html" class="cor-btn">R$ 200,00</a></button>
+        </div>
+    
+        <div class="catalogo">
+            <img src="assets/img/Produtos/racao2-gato.png" alt=""/>
+            <p class="nomeproduto">Ração Special Cat</p>
+            <p class="descricaoproduto">Sabor salmão e arroz</p>
+            <button><a href="compra.html" class="cor-btn">R$ 153,99</a></button>
+        </div>
+
+        <div class="catalogo">
+            <img src="assets/img/Produtos/arranhador3.webp" alt=""/>
+            <p class="nomeproduto">Arranhador</p>
+            <p class="descricaoproduto">Tecido de Sisal</p>
+            <button><a href="compra.html" class="cor-btn">R$ 62,83</a></button>
+        </div>
+
+        <div class="catalogo">
+            <img src="assets/img/Produtos/comedouro4.png" alt=""/>
+            <p class="nomeproduto">Comedouro</p>
+            <p class="descricaoproduto">Pote de Cerâmica</p>
+            <button><a href="compra.html" class="cor-btn">R$ 82,83</a></button>
+        </div>
+    </div>
+
+    <hr>
+
+
+        <div id="redirec-roedores">
+        <div class="catalogo">
+            <img src="assets/img/Produtos/racao1-pasaro.png" alt=""/>
+            <p class="nomeproduto">Ração Gold Mix</p>
+            <p class="descricaoproduto">Sabor Frutas</p>
+            <button><a href="compra.html" class="cor-btn">R$ 35,39</a></button>
+        </div>
+    
+        <div class="catalogo">
+            <img src="assets/img/Produtos/hamster.png" alt=""/>
+            <p class="nomeproduto">Ração Gold Mix</p>
+            <p class="descricaoproduto">Mistura com frutas</p>
+            <button><a href="compra.html" class="cor-btn">R$ 40,99</a></button>
+        </div>
+
+        <div class="catalogo">
+            <img src="assets/img/Produtos/casa3-roedor.png" alt=""/>
+            <p class="nomeproduto">Ferplast Gaiola</p>
+            <p class="descricaoproduto">Inclui acessórios</p>
+            <button><a href="compra.html" class="cor-btn">R$ 2.300,83</a></button>
+        </div>
+
+        <div class="catalogo">
+            <img src="assets/img/Produtos/racao5-roedor.webp" alt=""/>
+            <p class="nomeproduto">Ração Nutrópica</p>
+            <p class="descricaoproduto">Alimento Super Premium</p>
+            <button><a href="compra.html" class="cor-btn">R$ 25,83</a></button>
+        </div>
+    </div>
+</div>
+        
+
+        
+    </section>
+
+
+
+
+    <!-- Rodapé -->
+    <footer>
+        <div id="fundodiv">
+            <!-- Informações de contato -->
+            <div class="footer-col">
+                <h4>Horário de funcionamento</h4>
+                <ul>
+                    <li><a href="#">Segunda à Domingo</a></li>
+                </ul>
+            </div>
+            <!-- Responsáveis pelo Site-->
+            <div class="footer-col">
+                <h4>Entre em contato</h4>
+                <ul>
+                    <li><a href="#">Whatsapp (11) 99999-9999</a></li>
+                    <li><a href="#">petmania@gmail.com</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-col">
+                <h4>Endereço</h4>
+                <ul>
+                    <li><a href="#">Avenida Algum Lugar, 789 - Jardim</a></li>
+                    <li><a href="#">São Paulo, SP</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-col">
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fi fi-brands-twitter-alt"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+    
+            <div>
+                <p class="direitos">Copyright @ 2024 - PetMania - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!--JAVASCTIPT EXTERNO-->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
